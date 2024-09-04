@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 60px 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #a0aec0;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-text button:hover {
+    background-color: #2563eb;
+}
+
+.hero-image {
+    background-color: #718096;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cbd5e0;
+}
+
+.info {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+}
+
+.card .card-image {
+    background-color: #e2e8f0;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 2px solid #3b82f6;
+    border-radius: 5px;
+}
+
+.quote {
+    background-color: #e2e8f0;
+    padding: 40px 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote .author {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #3b82f6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cta button:hover {
+    background-color: #e2e8f0;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
